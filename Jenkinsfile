@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'docker rm -f webapp-deploy || true'
-                sh 'docker run -d --name webapp-deploy -p 3000:3000 webapp-deploy:latest'
+                sh 'docker run -d --name webapp-deploy -p 3001:3000 webapp-deploy:latest'
             }
         }
     }
