@@ -1,0 +1,12 @@
+{
+  "name": "webapp-deploy",
+  "version": "1.0.0",
+  "description": "Simple app for automated deployment with Jenkins and GitHub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
